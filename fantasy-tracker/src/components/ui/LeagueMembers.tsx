@@ -4,7 +4,7 @@ const LeagueMembers = () => {
   const members = [
     {
       name: 'Anthony Ramirez',
-      team: 'Cooper loves cock',
+      team: 'Cooper sucks',
       avatar: '/src/assets/griffin.jpeg',
       wins: 0,
     },
@@ -16,7 +16,7 @@ const LeagueMembers = () => {
     },
     {
       name: 'Campbell Wildrick',
-      team: 'Flaming Fetuses',
+      team: 'LoveMeCujo',
       avatar: '/src/assets/griffin.jpeg',
       wins: 1,
     },
@@ -28,7 +28,7 @@ const LeagueMembers = () => {
     },
     {
       name: 'Cooper Hannah',
-      team: 'The StickyFingers',
+      team: 'The Fitzgeralds',
       avatar: '/src/assets/griffin.jpeg',
       wins: 2,
     },
@@ -40,7 +40,7 @@ const LeagueMembers = () => {
     },
     {
       name: 'Jeet Patel',
-      team: 'RIP Harambe',
+      team: 'Patel Brothers',
       avatar: '/src/assets/griffin.jpeg',
       wins: 1,
     },
