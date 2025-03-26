@@ -11,6 +11,7 @@ const TeamRow: React.FC<TeamProps> = ({ team }) => {
         </Avatar>
         <span className='font-serif'>{team.name}</span>
       </TableCell>
+      <TableCell className='font-serif'>{team.seasons}</TableCell>
       <TableCell className='font-serif'>{team.record}</TableCell>
       <TableCell className='font-serif'>{team.winPercentage}</TableCell>
       <TableCell className='font-serif'>{team.leagueRating}</TableCell>
