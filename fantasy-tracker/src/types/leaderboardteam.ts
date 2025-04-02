@@ -1,5 +1,5 @@
 export interface Team {
-  id: number;
+  id: string;
   logo: string;
   name: string;
   seasons: number;
@@ -7,6 +7,15 @@ export interface Team {
   winPercentage: number;
   leagueRating: number;
   trophies: string;
+  seasonHistory: [
+    {
+      year: number;
+      record: string;
+      pointsFor: number;
+      pointsAgainst: number;
+      rank: string;
+    }
+  ];
 }
 
 export interface TeamProps {
