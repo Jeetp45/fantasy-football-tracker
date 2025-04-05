@@ -33,11 +33,11 @@ const CurrentHistory = () => {
     <Table>
       <TableHeader>
         <TableRow>
-          <TableHead className='font-serif'>Team</TableHead>
-          <TableHead className='font-serif'>Record</TableHead>
-          <TableHead className='font-serif'>Points For</TableHead>
-          <TableHead className='font-serif'>Points Against</TableHead>
-          <TableHead className='font-serif'>Rank</TableHead>
+          <TableHead className='font-serif text-lg'>Team</TableHead>
+          <TableHead className='font-serif text-lg'>Record</TableHead>
+          <TableHead className='font-serif text-lg'>Points For</TableHead>
+          <TableHead className='font-serif text-lg'>Points Against</TableHead>
+          <TableHead className='font-serif text-lg'>Rank</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -48,19 +48,19 @@ const CurrentHistory = () => {
           return (
             history && (
               <TableRow key={team.id}>
-                <TableCell className='text-md font-serif'>
+                <TableCell className='text-lg font-serif'>
                   {team.name}
                 </TableCell>
-                <TableCell className='text-md font-serif'>
+                <TableCell className='text-lg font-serif'>
                   {history.record}
                 </TableCell>
-                <TableCell className='text-md font-serif'>
+                <TableCell className='text-lg font-serif'>
                   {history.pointsFor}
                 </TableCell>
-                <TableCell className='text-md font-serif'>
+                <TableCell className='text-lg font-serif'>
                   {history.pointsAgainst}
                 </TableCell>
-                <TableCell className='text-md font-serif'>
+                <TableCell className='text-lg font-serif'>
                   {history.rank}
                 </TableCell>
               </TableRow>

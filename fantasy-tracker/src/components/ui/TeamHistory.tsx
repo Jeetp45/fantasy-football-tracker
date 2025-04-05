@@ -27,7 +27,7 @@ const TeamHistory = () => {
   return (
     <div className='py-6'>
       <div className='container mx-auto'>
-        <Card className='max-w-md mx-auto p-6 text-center'>
+        <Card className='max-w-2xl mx-auto p-6 text-center'>
           <CardHeader>
             <h1 className='text-2xl font-semibold font-serif'>
               Team Season History
@@ -61,6 +61,7 @@ const TeamHistory = () => {
               </SelectContent>
             </Select>
           </div>
+
           {selectedTeam && (
             <div className='mt-4'>
               <Select
@@ -86,10 +87,11 @@ const TeamHistory = () => {
             </div>
           )}
         </Card>
+
         <div className='mt-6'>
           <Card className='max-w-6xl mx-auto p-6'>
             <CardHeader>
-              <h2 className='text-xl font-semibold font-serif'>
+              <h2 className='flex justify-center text-xl font-semibold font-serif mb-2'>
                 {selectedSeason
                   ? `${selectedTeam?.name} ${selectedSeason}`
                   : '2024'}{' '}

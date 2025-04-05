@@ -7,15 +7,13 @@ export interface Team {
   winPercentage: number;
   leagueRating: number;
   trophies: string;
-  seasonHistory: [
-    {
-      year: number;
-      record: string;
-      pointsFor: number;
-      pointsAgainst: number;
-      rank: string;
-    }
-  ];
+  seasonHistory: {
+    year: number;
+    record: string;
+    pointsFor: number;
+    pointsAgainst: number;
+    rank: string;
+  }[];
 }
 
 export interface TeamProps {
