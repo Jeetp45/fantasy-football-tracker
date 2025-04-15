@@ -10,7 +10,7 @@ import { SeasonHistoryTableProps } from '@/types/seasonhistory';
 
 const SeasonHistoryTable: React.FC<SeasonHistoryTableProps> = ({
   team,
-  seasonData,
+  seasons,
 }) => {
   return (
     <Table>
@@ -24,21 +24,21 @@ const SeasonHistoryTable: React.FC<SeasonHistoryTableProps> = ({
         </TableRow>
       </TableHeader>
       <TableBody>
-        <TableRow>
-          <TableCell className='text-lg font-serif'>{team.name}</TableCell>
-          <TableCell className='text-lg font-serif'>
-            {seasonData.record}
-          </TableCell>
-          <TableCell className='text-lg font-serif'>
-            {seasonData.pointsFor}
-          </TableCell>
-          <TableCell className='text-lg font-serif'>
-            {seasonData.pointsAgainst}
-          </TableCell>
-          <TableCell className='text-lg font-serif'>
-            {seasonData.rank}
-          </TableCell>
-        </TableRow>
+        {seasons.map((season) => (
+          <TableRow key={`${team.id}-${season.year}`}>
+            <TableCell className='text-lg font-serif'>{team.team}</TableCell>
+            <TableCell className='text-lg font-serif'>
+              {season.record}
+            </TableCell>
+            <TableCell className='text-lg font-serif'>
+              {season.pointsFor}
+            </TableCell>
+            <TableCell className='text-lg font-serif'>
+              {season.pointsAgainst}
+            </TableCell>
+            <TableCell className='text-lg font-serif'>{season.rank}</TableCell>
+          </TableRow>
+        ))}
       </TableBody>
     </Table>
   );

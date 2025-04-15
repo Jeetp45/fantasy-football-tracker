@@ -10,5 +10,5 @@ export interface SeasonHistory {
 
 export interface SeasonHistoryTableProps {
   team: Team;
-  seasonData: SeasonHistory;
+  seasons: SeasonHistory[];
 }

@@ -12,7 +12,9 @@ import CurrentHistory from './CurrentHistory';
 
 const TeamHistory = () => {
   const [selectedTeamId, setSelectedTeamId] = useState<string | null>(null);
-  const [selectedSeason, setSelectedSeason] = useState<number | null>(null);
+  const [selectedSeason, setSelectedSeason] = useState<number | 'all' | null>(
+    null
+  );
 
   const selectedTeam = teams.find((team) => team.id === selectedTeamId);
 
@@ -37,7 +39,7 @@ const TeamHistory = () => {
             <Select
               onValueChange={(value) => {
                 setSelectedTeamId(value);
-                setSelectedSeason(null);
+                setSelectedSeason('all');
               }}
             >
               <SelectTrigger className='w-full bg-red-300 text-white border border-gray-400'>
@@ -65,14 +67,21 @@ const TeamHistory = () => {
           {selectedTeam && (
             <div className='mt-4'>
               <Select
-                onValueChange={(value) => setSelectedSeason(Number(value))}
+                onValueChange={(value) =>
+                  setSelectedSeason(value === 'all' ? 'all' : Number(value))
+                }
               >
                 <SelectTrigger className='w-full bg-red-300 text-white border border-gray-400'>
                   <span className='text-white font-serif'>
-                    {selectedSeason ? `${selectedSeason}` : 'Select a Season'}
+                    {selectedSeason === 'all'
+                      ? 'All Seasons'
+                      : selectedSeason ?? 'Select a Season'}
                   </span>
                 </SelectTrigger>
                 <SelectContent className='bg-gray-400 text-white'>
+                  <SelectItem value='all' className='hover:bg-gray-600'>
+                    All Seasons
+                  </SelectItem>
                   {seasons.map((year) => (
                     <SelectItem
                       key={year}
@@ -93,16 +102,21 @@ const TeamHistory = () => {
             <CardHeader>
               <h2 className='flex justify-center text-xl font-semibold font-serif mb-2'>
                 {selectedSeason
-                  ? `${selectedTeam?.name} ${selectedSeason}`
+                  ? `${selectedTeam?.team} ${selectedSeason}`
                   : '2024'}{' '}
                 Season
               </h2>
             </CardHeader>
             <CardContent>
-              {selectedTeam && selectedSeasonData ? (
+              {selectedTeam && selectedSeason === 'all' ? (
                 <SeasonHistoryTable
                   team={selectedTeam}
-                  seasonData={selectedSeasonData}
+                  seasons={selectedTeam.seasonHistory}
+                />
+              ) : selectedTeam && selectedSeasonData ? (
+                <SeasonHistoryTable
+                  team={selectedTeam}
+                  seasons={[selectedSeasonData]}
                 />
               ) : (
                 <CurrentHistory />
