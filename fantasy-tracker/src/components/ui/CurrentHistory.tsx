@@ -32,12 +32,18 @@ const CurrentHistory = () => {
   return (
     <Table>
       <TableHeader>
-        <TableRow>
-          <TableHead className='font-serif text-lg'>Team</TableHead>
-          <TableHead className='font-serif text-lg'>Record</TableHead>
-          <TableHead className='font-serif text-lg'>Points For</TableHead>
-          <TableHead className='font-serif text-lg'>Points Against</TableHead>
-          <TableHead className='font-serif text-lg'>Rank</TableHead>
+        <TableRow className='bg-red-400'>
+          <TableHead className='font-serif text-white text-lg'>Team</TableHead>
+          <TableHead className='font-serif text-white text-lg'>
+            Record
+          </TableHead>
+          <TableHead className='font-serif text-white text-lg'>
+            Points For
+          </TableHead>
+          <TableHead className='font-serif text-white text-lg'>
+            Points Against
+          </TableHead>
+          <TableHead className='font-serif text-white text-lg'>Rank</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>

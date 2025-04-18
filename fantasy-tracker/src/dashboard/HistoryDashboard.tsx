@@ -2,7 +2,7 @@ import TeamHistory from '@/components/ui/TeamHistory';
 
 const HistoryDashboard = () => {
   return (
-    <div className='min-h-screen bg-gradient-to-br from-gray-500 to-gray-800'>
+    <div className='min-h-screen bg-gradient-to-br from-gray-400 to-gray-600'>
       <TeamHistory />
     </div>
   );

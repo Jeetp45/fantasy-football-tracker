@@ -9,6 +9,8 @@ import {
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 import SeasonHistoryTable from '@/components/ui/SeasonHistoryTable';
 import CurrentHistory from './CurrentHistory';
+import TeamWinChart from './TeamWinChart';
+import PointsComparisonChart from './PointComparisonChart';
 
 const TeamHistory = () => {
   const [selectedTeamId, setSelectedTeamId] = useState<string | null>(null);
@@ -29,9 +31,9 @@ const TeamHistory = () => {
   return (
     <div className='py-6'>
       <div className='container mx-auto'>
-        <Card className='max-w-2xl mx-auto p-6 text-center'>
+        <Card className='max-w-3xl mx-auto p-6 text-center bg-blue-400'>
           <CardHeader>
-            <h1 className='text-2xl font-semibold font-serif'>
+            <h1 className='text-2xl text-white font-semibold font-serif'>
               Team Season History
             </h1>
           </CardHeader>
@@ -47,7 +49,7 @@ const TeamHistory = () => {
                   {selectedTeam?.name || 'Select a Team'}
                 </span>
               </SelectTrigger>
-              <SelectContent className='bg-gray-400 text-white'>
+              <SelectContent className='bg-red-300 text-white'>
                 <SelectItem value='2024' className='hover:bg-gray-600'>
                   2024 Season Overview
                 </SelectItem>
@@ -78,7 +80,7 @@ const TeamHistory = () => {
                       : selectedSeason ?? 'Select a Season'}
                   </span>
                 </SelectTrigger>
-                <SelectContent className='bg-gray-400 text-white'>
+                <SelectContent className='bg-red-300 text-white'>
                   <SelectItem value='all' className='hover:bg-gray-600'>
                     All Seasons
                   </SelectItem>
@@ -98,21 +100,40 @@ const TeamHistory = () => {
         </Card>
 
         <div className='mt-6'>
-          <Card className='max-w-6xl mx-auto p-6'>
+          <Card className='max-w-6xl mx-auto p-6 bg-emerald-400'>
             <CardHeader>
-              <h2 className='flex justify-center text-xl font-semibold font-serif mb-2'>
-                {selectedSeason
-                  ? `${selectedTeam?.team} ${selectedSeason}`
-                  : '2024'}{' '}
-                Season
+              <h2 className='flex justify-center text-xl font-semibold text-white font-serif mb-2'>
+                {selectedTeam
+                  ? selectedSeason === 'all'
+                    ? `${selectedTeam.team} - All Seasons`
+                    : selectedSeason
+                    ? `${selectedTeam.team} - ${selectedSeason} Season`
+                    : 'Select a Season'
+                  : '2024 Season Overview'}
               </h2>
             </CardHeader>
             <CardContent>
               {selectedTeam && selectedSeason === 'all' ? (
-                <SeasonHistoryTable
-                  team={selectedTeam}
-                  seasons={selectedTeam.seasonHistory}
-                />
+                <div>
+                  <SeasonHistoryTable
+                    team={selectedTeam}
+                    seasons={selectedTeam.seasonHistory}
+                  />
+                  <div className='mt-6'>
+                    <h3 className='text-center text-lg text-white font-serif mb-2'>
+                      Wins Over Time
+                    </h3>
+                    <TeamWinChart seasons={selectedTeam.seasonHistory} />
+                  </div>
+                  <div className='mt-6'>
+                    <h3 className='text-center text-lg text-white font-serif mb-2'>
+                      Points For vs. Points Against
+                    </h3>
+                    <PointsComparisonChart
+                      seasons={selectedTeam.seasonHistory}
+                    />
+                  </div>
+                </div>
               ) : selectedTeam && selectedSeasonData ? (
                 <SeasonHistoryTable
                   team={selectedTeam}

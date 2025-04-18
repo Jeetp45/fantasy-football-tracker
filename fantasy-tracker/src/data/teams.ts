@@ -15,6 +15,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '7-7',
+        wins: 7,
         pointsFor: 1467.08,
         pointsAgainst: 1516.48,
         rank: '5th',
@@ -22,6 +23,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '8-6',
+        wins: 8,
         pointsFor: 1482.56,
         pointsAgainst: 1469.58,
         rank: '🏆',
@@ -29,6 +31,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '11-3',
+        wins: 11,
         pointsFor: 1582.18,
         pointsAgainst: 1188.4,
         rank: '🥉',
@@ -36,6 +39,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '12-2',
+        wins: 12,
         pointsFor: 1600.48,
         pointsAgainst: 1215.34,
         rank: '🥉',
@@ -43,6 +47,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '8-5',
+        wins: 8,
         pointsFor: 1281.16,
         pointsAgainst: 1241.5,
         rank: '4th',
@@ -50,6 +55,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '8-5',
+        wins: 8,
         pointsFor: 1283.18,
         pointsAgainst: 1170.44,
         rank: '🏆',
@@ -57,6 +63,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '8-5',
+        wins: 8,
         pointsFor: 1326.28,
         pointsAgainst: 1295.08,
         rank: '🏆',
@@ -64,6 +71,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '10-3',
+        wins: 10,
         pointsFor: 1285.08,
         pointsAgainst: 1135.9,
         rank: '🥉',
@@ -71,6 +79,7 @@ export const teams: Team[] = [
       {
         year: 2016,
         record: '5-8',
+        wins: 10,
         pointsFor: 1254.7,
         pointsAgainst: 1349.44,
         rank: '5th',
@@ -78,6 +87,7 @@ export const teams: Team[] = [
       {
         year: 2015,
         record: '10-3',
+        wins: 10,
         pointsFor: 1358.8,
         pointsAgainst: 1174.82,
         rank: '🥈',
@@ -98,6 +108,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '6-8',
+        wins: 6,
         pointsFor: 1481.44,
         pointsAgainst: 1546.7,
         rank: '8th',
@@ -105,6 +116,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '4-10',
+        wins: 4,
         pointsFor: 1390.78,
         pointsAgainst: 1516.48,
         rank: '8th',
@@ -112,6 +124,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '7-7',
+        wins: 7,
         pointsFor: 1335.22,
         pointsAgainst: 1386.3,
         rank: '🏆',
@@ -119,6 +132,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '4-10',
+        wins: 4,
         pointsFor: 1192.06,
         pointsAgainst: 1252.68,
         rank: '7th',
@@ -126,6 +140,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '8-5',
+        wins: 8,
         pointsFor: 1418.92,
         pointsAgainst: 1275.52,
         rank: '🥈',
@@ -133,6 +148,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '8-5',
+        wins: 8,
         pointsFor: 1175.26,
         pointsAgainst: 1209.82,
         rank: '5th',
@@ -140,6 +156,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '11-2',
+        wins: 11,
         pointsFor: 1459.98,
         pointsAgainst: 1165.78,
         rank: '🥈',
@@ -147,6 +164,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '10-3',
+        wins: 10,
         pointsFor: 1386.28,
         pointsAgainst: 1098.16,
         rank: '🥈',
@@ -154,6 +172,7 @@ export const teams: Team[] = [
       {
         year: 2016,
         record: '8-5',
+        wins: 8,
         pointsFor: 1332.74,
         pointsAgainst: 1266.14,
         rank: '🥉',
@@ -161,9 +180,10 @@ export const teams: Team[] = [
       {
         year: 2015,
         record: '9-4',
+        wins: 9,
         pointsFor: 1277.72,
         pointsAgainst: 1113.12,
-        rank: '🏆,',
+        rank: '🏆',
       },
     ],
   },
@@ -181,6 +201,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '9-5',
+        wins: 9,
         pointsFor: 1654.1,
         pointsAgainst: 1415.2,
         rank: '🏆',
@@ -188,6 +209,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '9-5',
+        wins: 9,
         pointsFor: 1508.16,
         pointsAgainst: 1263.48,
         rank: '🥈',
@@ -195,6 +217,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '7-7',
+        wins: 7,
         pointsFor: 1511.3,
         pointsAgainst: 1344.82,
         rank: '7th',
@@ -202,6 +225,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '13-1',
+        wins: 13,
         pointsFor: 1488.4,
         pointsAgainst: 1154.54,
         rank: '🥈',
@@ -209,6 +233,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '10-3',
+        wins: 10,
         pointsFor: 1345.36,
         pointsAgainst: 1128.38,
         rank: '🥉',
@@ -216,6 +241,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '6-7',
+        wins: 6,
         pointsFor: 1279.76,
         pointsAgainst: 1237.74,
         rank: '8th',
@@ -223,6 +249,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '9-4',
+        wins: 9,
         pointsFor: 1347.26,
         pointsAgainst: 1196.96,
         rank: '4th',
@@ -230,6 +257,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '6-7',
+        wins: 6,
         pointsFor: 1167.44,
         pointsAgainst: 1152.56,
         rank: '4th',
@@ -237,6 +265,7 @@ export const teams: Team[] = [
       {
         year: 2016,
         record: '6-7',
+        wins: 6,
         pointsFor: 1249.24,
         pointsAgainst: 1239.28,
         rank: '6th',
@@ -244,6 +273,7 @@ export const teams: Team[] = [
       {
         year: 2015,
         record: '7-6',
+        wins: 7,
         pointsFor: 1411.16,
         pointsAgainst: 1271.62,
         rank: '🥉',
@@ -264,6 +294,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '7-7',
+        wins: 7,
         pointsFor: 1592.26,
         pointsAgainst: 1546.08,
         rank: '🥈',
@@ -271,6 +302,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '9-5',
+        wins: 9,
         pointsFor: 1546.64,
         pointsAgainst: 1584.98,
         rank: '🥉',
@@ -278,6 +310,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '9-5',
+        wins: 9,
         pointsFor: 1423.76,
         pointsAgainst: 1205.42,
         rank: '4th',
@@ -285,6 +318,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '6-8',
+        wins: 6,
         pointsFor: 1259.66,
         pointsAgainst: 1298.56,
         rank: '5th',
@@ -292,6 +326,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '7-6',
+        wins: 7,
         pointsFor: 1253.6,
         pointsAgainst: 1209.14,
         rank: '5th',
@@ -299,6 +334,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '4-9',
+        wins: 4,
         pointsFor: 1070.62,
         pointsAgainst: 1152.02,
         rank: '9th',
@@ -306,6 +342,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '7-6',
+        wins: 7,
         pointsFor: 1327.8,
         pointsAgainst: 1335.16,
         rank: '🥉',
@@ -313,6 +350,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '7-6',
+        wins: 7,
         pointsFor: 1128.12,
         pointsAgainst: 1136.5,
         rank: '6th',
@@ -320,6 +358,7 @@ export const teams: Team[] = [
       {
         year: 2016,
         record: '8-5',
+        wins: 8,
         pointsFor: 1296.46,
         pointsAgainst: 1108.42,
         rank: '🏆',
@@ -340,6 +379,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '10-4',
+        wins: 10,
         pointsFor: 1562.1,
         pointsAgainst: 1444.8,
         rank: '🥉',
@@ -347,6 +387,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '7-7',
+        wins: 7,
         pointsFor: 1612.92,
         pointsAgainst: 1556.94,
         rank: '7th',
@@ -354,6 +395,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '9-5',
+        wins: 9,
         pointsFor: 1376.12,
         pointsAgainst: 1196.16,
         rank: '6th',
@@ -361,6 +403,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '7-7',
+        wins: 7,
         pointsFor: 1491.38,
         pointsAgainst: 1316.12,
         rank: '4th',
@@ -368,6 +411,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '5-8',
+        wins: 5,
         pointsFor: 1114.78,
         pointsAgainst: 1306.28,
         rank: '9th',
@@ -375,6 +419,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '6-7',
+        wins: 6,
         pointsFor: 1164.38,
         pointsAgainst: 1215.42,
         rank: '7th',
@@ -382,6 +427,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '5-8',
+        wins: 5,
         pointsFor: 1205.84,
         pointsAgainst: 1318.92,
         rank: '8th',
@@ -389,6 +435,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '5-8',
+        wins: 5,
         pointsFor: 1218.48,
         pointsAgainst: 1309.26,
         rank: '🏆',
@@ -409,6 +456,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '11-3',
+        wins: 11,
         pointsFor: 1577.5,
         pointsAgainst: 1434.82,
         rank: '4th',
@@ -416,6 +464,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '8-6',
+        wins: 8,
         pointsFor: 1446.34,
         pointsAgainst: 1412.62,
         rank: '4th',
@@ -423,6 +472,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '3-11',
+        wins: 3,
         pointsFor: 1022.32,
         pointsAgainst: 1298.52,
         rank: '10th',
@@ -430,6 +480,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '5-9',
+        wins: 5,
         pointsFor: 1085.64,
         pointsAgainst: 1312.14,
         rank: '9th',
@@ -437,6 +488,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '9-4',
+        wins: 9,
         pointsFor: 1205.98,
         pointsAgainst: 1163.28,
         rank: '🏆',
@@ -444,6 +496,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '4-9',
+        wins: 4,
         pointsFor: 1265.04,
         pointsAgainst: 1407.54,
         rank: '10th',
@@ -451,6 +504,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '6-7',
+        wins: 6,
         pointsFor: 1206.48,
         pointsAgainst: 1271.3,
         rank: '10th',
@@ -458,6 +512,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '5-8',
+        wins: 5,
         pointsFor: 1194.02,
         pointsAgainst: 1194.52,
         rank: '8th',
@@ -465,6 +520,7 @@ export const teams: Team[] = [
       {
         year: 2016,
         record: '9-4',
+        wins: 9,
         pointsFor: 1382.18,
         pointsAgainst: 1184.42,
         rank: '🥈',
@@ -485,6 +541,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '8-6',
+        wins: 8,
         pointsFor: 1579.9,
         pointsAgainst: 1411.82,
         rank: '6th',
@@ -492,6 +549,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '7-7',
+        wins: 7,
         pointsFor: 1559.72,
         pointsAgainst: 1470.38,
         rank: '5th',
@@ -499,6 +557,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '4-10',
+        wins: 4,
         pointsFor: 948.96,
         pointsAgainst: 1224.8,
         rank: '8th',
@@ -506,6 +565,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '6-8',
+        wins: 6,
         pointsFor: 1319.5,
         pointsAgainst: 1395.18,
         rank: '🏆',
@@ -513,6 +573,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '4-9',
+        wins: 4,
         pointsFor: 1084.4,
         pointsAgainst: 1245.38,
         rank: '8th',
@@ -520,6 +581,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '7-6',
+        wins: 7,
         pointsFor: 1272.44,
         pointsAgainst: 1172.62,
         rank: '4th',
@@ -527,6 +589,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '5-8',
+        wins: 5,
         pointsFor: 1246.8,
         pointsAgainst: 1308.96,
         rank: '9th',
@@ -534,6 +597,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '6-7',
+        wins: 6,
         pointsFor: 1167.44,
         pointsAgainst: 1152.56,
         rank: '4th',
@@ -554,6 +618,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '5-9',
+        wins: 5,
         pointsFor: 1427.42,
         pointsAgainst: 1530.12,
         rank: '7th',
@@ -561,6 +626,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '7-7',
+        wins: 7,
         pointsFor: 1387.56,
         pointsAgainst: 1483.54,
         rank: '6th',
@@ -568,6 +634,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '7-7',
+        wins: 7,
         pointsFor: 1271.54,
         pointsAgainst: 1332.96,
         rank: '🥈',
@@ -575,6 +642,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '10-4',
+        wins: 10,
         pointsFor: 1400.42,
         pointsAgainst: 1245.6,
         rank: '6th',
@@ -582,6 +650,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '8-5',
+        wins: 8,
         pointsFor: 1282.52,
         pointsAgainst: 1106.08,
         rank: '6th',
@@ -589,6 +658,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '8-5',
+        wins: 8,
         pointsFor: 1314.8,
         pointsAgainst: 1278.54,
         rank: '6th',
@@ -596,6 +666,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '6-7',
+        wins: 6,
         pointsFor: 1451.48,
         pointsAgainst: 1420.08,
         rank: '6th',
@@ -603,6 +674,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '7-6',
+        wins: 7,
         pointsFor: 1107.34,
         pointsAgainst: 1169.18,
         rank: '5th',
@@ -610,6 +682,7 @@ export const teams: Team[] = [
       {
         year: 2016,
         record: '10-3',
+        wins: 10,
         pointsFor: 1329.5,
         pointsAgainst: 1208.64,
         rank: '4th',
@@ -617,6 +690,7 @@ export const teams: Team[] = [
       {
         year: 2015,
         record: '5-8',
+        wins: 5,
         pointsFor: 1019.24,
         pointsAgainst: 1071.6,
         rank: '6th',
@@ -637,6 +711,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '6-8',
+        wins: 6,
         pointsFor: 1466.54,
         pointsAgainst: 1358.12,
         rank: '10th',
@@ -644,6 +719,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '4-10',
+        wins: 4,
         pointsFor: 1315.32,
         pointsAgainst: 1533.9,
         rank: '10th',
@@ -651,6 +727,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '6-8',
+        wins: 6,
         pointsFor: 1020.42,
         pointsAgainst: 1231.7,
         rank: '9th',
@@ -658,6 +735,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '3-11',
+        wins: 3,
         pointsFor: 1241.7,
         pointsAgainst: 1529.92,
         rank: '8th',
@@ -665,6 +743,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '5-8',
+        wins: 5,
         pointsFor: 1316.08,
         pointsAgainst: 1388.8,
         rank: '10th',
@@ -672,6 +751,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '8-5',
+        wins: 8,
         pointsFor: 1218.98,
         pointsAgainst: 1165.1,
         rank: '🥉',
@@ -679,6 +759,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '2-11',
+        wins: 2,
         pointsFor: 1195.02,
         pointsAgainst: 1363.12,
         rank: '7th',
@@ -686,6 +767,7 @@ export const teams: Team[] = [
       {
         year: 2017,
         record: '2-11',
+        wins: 2,
         pointsFor: 920.56,
         pointsAgainst: 1211.24,
         rank: '7th',
@@ -693,6 +775,7 @@ export const teams: Team[] = [
       {
         year: 2016,
         record: '4-9',
+        wins: 4,
         pointsFor: 1252.56,
         pointsAgainst: 1394.26,
         rank: '7th',
@@ -700,6 +783,7 @@ export const teams: Team[] = [
       {
         year: 2015,
         record: '7-6',
+        wins: 7,
         pointsFor: 1179.52,
         pointsAgainst: 1241.4,
         rank: '4th',
@@ -720,6 +804,7 @@ export const teams: Team[] = [
       {
         year: 2024,
         record: '7-7',
+        wins: 7,
         pointsFor: 1110.96,
         pointsAgainst: 1715.16,
         rank: '9th',
@@ -727,6 +812,7 @@ export const teams: Team[] = [
       {
         year: 2023,
         record: '7-7',
+        wins: 7,
         pointsFor: 1545.48,
         pointsAgainst: 1503.58,
         rank: '9th',
@@ -734,6 +820,7 @@ export const teams: Team[] = [
       {
         year: 2022,
         record: '7-7',
+        wins: 7,
         pointsFor: 1177.28,
         pointsAgainst: 1260.02,
         rank: '5th',
@@ -741,6 +828,7 @@ export const teams: Team[] = [
       {
         year: 2021,
         record: '4-10',
+        wins: 4,
         pointsFor: 943.58,
         pointsAgainst: 1302.74,
         rank: '10th',
@@ -748,6 +836,7 @@ export const teams: Team[] = [
       {
         year: 2020,
         record: '1-12',
+        wins: 1,
         pointsFor: 1086.2,
         pointsAgainst: 1306.64,
         rank: '7th',
@@ -755,6 +844,7 @@ export const teams: Team[] = [
       {
         year: 2019,
         record: '6-7',
+        wins: 6,
         pointsFor: 1077.74,
         pointsAgainst: 1112.96,
         rank: '🥈',
@@ -762,6 +852,7 @@ export const teams: Team[] = [
       {
         year: 2018,
         record: '6-7',
+        wins: 6,
         pointsFor: 1283.5,
         pointsAgainst: 1375.08,
         rank: '5th',

@@ -12,6 +12,7 @@ export interface Team {
     year: number;
     record: string;
     pointsFor: number;
+    wins: number;
     pointsAgainst: number;
     rank: string;
   }[];
