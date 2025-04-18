@@ -120,13 +120,13 @@ const TeamHistory = () => {
                     seasons={selectedTeam.seasonHistory}
                   />
                   <div className='mt-6'>
-                    <h3 className='text-center text-lg text-white font-serif mb-2'>
+                    <h3 className='text-center text-xl font-semibold text-white font-serif mb-2'>
                       Wins Over Time
                     </h3>
                     <TeamWinChart seasons={selectedTeam.seasonHistory} />
                   </div>
                   <div className='mt-6'>
-                    <h3 className='text-center text-lg text-white font-serif mb-2'>
+                    <h3 className='text-center text-xl font-semibold text-white font-serif mb-2'>
                       Points For vs. Points Against
                     </h3>
                     <PointsComparisonChart

@@ -10,18 +10,10 @@ import {
 } from 'recharts';
 
 const TeamWinChart: React.FC<TeamWinChartProps> = ({ seasons }) => {
-  const filledWinData = Array.from({ length: 2024 - 2015 + 1 }, (_, i) => {
-    const year = 2015 + i;
-    const season = seasons.find((s) => s.year === year);
-    return {
-      year,
-      wins: season ? season.wins : 0,
-    };
-  });
   return (
     <div className='w-full h-72'>
       <ResponsiveContainer>
-        <LineChart data={filledWinData}>
+        <LineChart data={seasons}>
           <CartesianGrid strokeDasharray='3 3' />
           <XAxis dataKey='year' />
           <YAxis />
