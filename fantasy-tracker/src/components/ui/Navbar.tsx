@@ -58,30 +58,42 @@ const Navbar = () => {
             <Button
               variant='ghost'
               className='w-full'
-              onClick={() => setIsOpen(false)}
+              onClick={() => {
+                setIsOpen(false);
+                navigate('/home');
+              }}
             >
               Home
             </Button>
             <Button
               variant='ghost'
               className='w-full'
-              onClick={() => setIsOpen(false)}
+              onClick={() => {
+                setIsOpen(false);
+                navigate('/leaderboard');
+              }}
             >
               Leaderboard
             </Button>
             <Button
               variant='ghost'
               className='w-full'
-              onClick={() => setIsOpen(false)}
+              onClick={() => {
+                setIsOpen(false);
+                navigate('/history');
+              }}
             >
-              Matches
+              History
             </Button>
             <Button
               variant='ghost'
               className='w-full'
-              onClick={() => setIsOpen(false)}
+              onClick={() => {
+                setIsOpen(false);
+                navigate('/versus');
+              }}
             >
-              Teams
+              Versus
             </Button>
           </div>
         )}

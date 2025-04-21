@@ -55,7 +55,7 @@ const CurrentHistory = () => {
             history && (
               <TableRow key={team.id}>
                 <TableCell className='text-lg font-serif'>
-                  {team.name}
+                  {team.team}
                 </TableCell>
                 <TableCell className='text-lg font-serif'>
                   {history.record}
