@@ -1,9 +1,17 @@
 import { Team } from '@/types/leaderboardteam';
+import packers from '@/assets/packers.png';
+import panthers from '@/assets/panthers.png';
+import bears from '@/assets/bears.png';
+import patriots from '@/assets/patriots.jpg';
+import giants from '@/assets/giants.png';
+import cowboys from '@/assets/cowboys.png';
+import falcons from '@/assets/falcons.png';
+import lions from '@/assets/lions.png';
 
 export const teams: Team[] = [
   {
     id: '1',
-    logo: '/src/assets/patriots.jpg',
+    logo: patriots,
     name: 'Hank',
     team: 'Red Barons',
     seasons: 10,
@@ -96,7 +104,7 @@ export const teams: Team[] = [
   },
   {
     id: '2',
-    logo: '/src/assets/panthers.png',
+    logo: panthers,
     name: 'Cooper',
     team: 'The Fitzgeralds',
     seasons: 10,
@@ -189,7 +197,7 @@ export const teams: Team[] = [
   },
   {
     id: '3',
-    logo: '/src/assets/falcons.png',
+    logo: falcons,
     name: 'Rett',
     team: 'Atlanta Rejulios',
     seasons: 10,
@@ -282,7 +290,7 @@ export const teams: Team[] = [
   },
   {
     id: '4',
-    logo: '/src/assets/giants.png',
+    logo: giants,
     name: 'Jeet',
     team: 'RIP Harambe',
     seasons: 9,
@@ -367,7 +375,7 @@ export const teams: Team[] = [
   },
   {
     id: '5',
-    logo: '/src/assets/panthers.png',
+    logo: panthers,
     name: 'Campbell',
     team: 'LoveMeCujo',
     seasons: 8,
@@ -444,7 +452,7 @@ export const teams: Team[] = [
   },
   {
     id: '6',
-    logo: '/src/assets/cowboys.png',
+    logo: cowboys,
     name: 'Noah',
     team: 'Norts',
     seasons: 9,
@@ -529,7 +537,7 @@ export const teams: Team[] = [
   },
   {
     id: '7',
-    logo: '/src/assets/bears.png',
+    logo: bears,
     name: 'Clay',
     team: 'Ckilla',
     seasons: 7,
@@ -606,7 +614,7 @@ export const teams: Team[] = [
   },
   {
     id: '8',
-    logo: '/src/assets/panthers.png',
+    logo: panthers,
     name: 'Bishop',
     team: 'Columbus Flyz',
     seasons: 10,
@@ -699,7 +707,7 @@ export const teams: Team[] = [
   },
   {
     id: '9',
-    logo: '/src/assets/packers.png',
+    logo: packers,
     name: 'Anthony',
     team: 'Cooper sucks',
     seasons: 10,
@@ -792,7 +800,7 @@ export const teams: Team[] = [
   },
   {
     id: '10',
-    logo: '/src/assets/lions.png',
+    logo: lions,
     name: 'Robert',
     team: 'Detroit Lyons',
     seasons: 8,
