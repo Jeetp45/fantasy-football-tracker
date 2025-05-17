@@ -1,5 +1,5 @@
 import { Card, CardHeader } from '@/components/ui/card';
-import { VersusCardProps } from '@/types/versus';
+import { VersusCardProps } from '@/types/versushistory';
 
 const VersusCard = ({ value, matchup, description }: VersusCardProps) => {
   return (

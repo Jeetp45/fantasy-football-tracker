@@ -1,3 +1,6 @@
+import { VersusHistory } from './versushistory';
+import { SeasonHistory } from './seasonhistory';
+
 export interface Team {
   id: string;
   logo: string;
@@ -8,14 +11,8 @@ export interface Team {
   winPercentage: number;
   leagueRating: number;
   trophies: string;
-  seasonHistory: {
-    year: number;
-    record: string;
-    pointsFor: number;
-    wins: number;
-    pointsAgainst: number;
-    rank: string;
-  }[];
+  seasonHistory: SeasonHistory[];
+  versusHistory: VersusHistory;
 }
 
 export interface TeamProps {

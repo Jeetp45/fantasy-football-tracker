@@ -1,18 +1,24 @@
 import VersusCard from './VersusCard';
 import { stats } from '@/data/versusstats';
-import { teams } from '@/data/teams'; //use this for versus table
+import { teams } from '@/data/teams';
 
+//{teams.map(team => ())}
 const Versus = () => {
   return (
-    <div className='flex overflow-x-auto gap-4 py-4 px-4'>
-      {stats.map((stat, index) => (
-        <VersusCard
-          key={index}
-          value={stat.value}
-          matchup={stat.matchup}
-          description={stat.description}
-        />
-      ))}
+    <div className='flex flex-col px-4 py-4'>
+      <div className='flex gap-4 py-4'>
+        {stats.map((stat, index) => (
+          <VersusCard
+            key={index}
+            value={stat.value}
+            matchup={stat.matchup}
+            description={stat.description}
+          />
+        ))}
+      </div>
+      <h1 className='text-center text-gray-200 text-xl sm:text-2xl md:text-3xl font-serif font-bold py-4'>
+        Head to Head
+      </h1>
     </div>
   );
 };
