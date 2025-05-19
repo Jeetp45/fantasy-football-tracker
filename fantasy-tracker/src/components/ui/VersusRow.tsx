@@ -26,7 +26,7 @@ const VersusRow = ({ team }: TeamProps) => {
         <span className='font-serif text-white'>{team.team}</span>
       </TableCell>
       {opponentKeys.map((key) => (
-        <TableCell className='font-serif text-blue-300' key={key}>
+        <TableCell className='font-serif text-blue-300 text-md' key={key}>
           {versusHistory[key]}
         </TableCell>
       ))}
