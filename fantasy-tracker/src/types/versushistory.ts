@@ -1,3 +1,5 @@
+import { Team } from './leaderboardteam';
+
 export interface VersusHistory {
   vsAnthony: string;
   vsBishop: string;
@@ -15,4 +17,8 @@ export interface VersusCardProps {
   value: string;
   matchup: string;
   description: string;
+}
+
+export interface TeamsProps {
+  teams: Team[];
 }

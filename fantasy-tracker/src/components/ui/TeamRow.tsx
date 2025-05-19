@@ -9,7 +9,7 @@ const TeamRow: React.FC<TeamProps> = ({ team }) => {
         <Avatar className='w-10 h-10'>
           <img src={team.logo} alt={team.name} />
         </Avatar>
-        <span className='font-serif'>{team.name}</span>
+        <span className='font-serif'>{team.team}</span>
       </TableCell>
       <TableCell className='font-serif'>{team.seasons}</TableCell>
       <TableCell className='font-serif'>{team.record}</TableCell>
