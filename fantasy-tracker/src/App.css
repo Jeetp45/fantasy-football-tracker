@@ -3,6 +3,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@keyframes gradient-border {
+  0% {
+    border-color: #c084fc;
+  }
+  50% {
+    border-color: #63e;
+  }
+  100% {
+    border-color: #c084fc;
+  }
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

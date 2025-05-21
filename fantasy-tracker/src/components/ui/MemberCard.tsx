@@ -4,7 +4,7 @@ import { MemberCardProps } from '@/types/member.ts';
 
 const MemberCard: React.FC<MemberCardProps> = ({ member }) => {
   return (
-    <Card className='w-full sm:max-w-xs md:max-w-sm lg:max-w-sm mx-auto p-6 bg-transparent border border-gray-500 rounded-2xl shadow-xl hover:scale-105 transition-all'>
+    <Card className='w-full sm:max-w-xs md:max-w-sm lg:max-w-sm mx-auto p-6 bg-transparent border animate-[gradient-border_3s_infinite] rounded-2xl shadow-xl hover:scale-105 transition-all'>
       <CardHeader className='text-center'>
         <Avatar className='mx-auto rounded-full w-24 h-24 mb-4'>
           <img src={member.avatar} alt={member.name} />
